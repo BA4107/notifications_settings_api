@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "CazareAdd": {
+        "PermiteRecazareInAcelasiAn": false,
+        "TrimiteMailStudent": true
+      },
+      "TaxaCazareUpdateValoare": {
+        "Autorizari": [
+          {
+            "Rol": "SefAdminCamine"
+          }
+        ]
+      },
+      "TaxeRatePlatiteSchimbaTaxaAsociata": {
+        "Autorizari": [
+          {
+            "Rol": "SefAdminCamine"
+          }
+        ]
+      },
+      "CazareMutaStudent": {
+        "Notificari": {
+          "TrimiteMail": true,
+          "NotificaStudent": false,
+          "NotificaProdecaniCazare": false,
+          "EmailuriCC": [
+            "test@unitbv.ro"
+          ]
+        },
+        "Autorizari": [
+          {
+            "Rol": "SefAdminCamine"
+          }
+        ]
+      },
+      "ProgramareCazareStrainiActualizare": {
+        "Notificari": {
+          "TrimiteMail": true,
+          "EmailuriDestinatari": [
+            "testStudent@unitbv.ro"
+          ]
+        }
+      },
+      "id": 1
+    }
+  ]
+}
